@@ -1,0 +1,8 @@
+
+pyautogui
+keyboard
+opencv-python
+numpy
+pygetwindow
+requests
+pyqt6
