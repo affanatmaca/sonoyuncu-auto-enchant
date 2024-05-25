@@ -143,10 +143,10 @@ class AletlerApp2(QtWidgets.QMainWindow):
         self.ui.setupUi(self)
 
         self.keyauth = api(
-            name="AutoEnchant",
-            ownerid="25HmWSrKZx",
-            secret="679495f14fd0834875c2e0acb7d9b7f92e270e296ba4edf1a9bcb2a6ec300ebd",
-            version="0.3",
+            name="",
+            ownerid="",
+            secret="",
+            version="",
             hash_to_check=()
         )
 
