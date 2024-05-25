@@ -23,22 +23,22 @@ SonOyuncu Auto Enchant is a powerful automation tool designed for the Minecraft 
 
 1. **Clone the Repository**
 
-   \`\`\`bash
+   ```bash
    git clone https://github.com/affanatmaca/sonoyuncu-auto-enchant.git
    cd sonoyuncu-auto-enchant
-   \`\`\`
+   ```
 
 2. **Install the Requirements**
 
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 3. **Run the Tool**
 
-   \`\`\`bash
+   ```bash
    python main.py
-   \`\`\`
+   ```
 
 ## Usage
 
@@ -57,7 +57,7 @@ Here are some snippets from the key modules:
 
 ### Main Automation Script (`main.py`)
 
-\`\`\`python
+```python
 import pyautogui as p
 import keyboard
 import time
@@ -89,11 +89,11 @@ def main():
 
 if __name__ == "__main__":
     main()
-\`\`\`
+```
 
 ### Webhook Notification Function
 
-\`\`\`python
+```python
 def webhook_mesaj_gonder(item_ismi, resim_url, aciklama):
     try:
         with open("webhook_settings.json", "r") as json_file:
@@ -117,13 +117,13 @@ def webhook_mesaj_gonder(item_ismi, resim_url, aciklama):
         print("webhook_settings.json dosyası bulunamadı.")
     except json.JSONDecodeError:
         print("webhook_settings.json dosyası okunurken hata oluştu.")
-\`\`\`
+```
 
-### License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-### Contact
+## Contact
 
 If you have any questions or need further assistance, feel free to open an issue or contact me via GitHub.
 
